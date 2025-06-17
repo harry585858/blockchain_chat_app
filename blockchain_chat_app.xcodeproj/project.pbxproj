@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		775816542E019BBC00ADF553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7758163E2E019BBA00ADF553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775816452E019BBA00ADF553;
+			remoteInfo = blockchain_chat_app;
+		};
+		7758165E2E019BBC00ADF553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7758163E2E019BBA00ADF553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775816452E019BBA00ADF553;
+			remoteInfo = blockchain_chat_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775816462E019BBA00ADF553 /* blockchain_chat_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockchain_chat_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775816532E019BBC00ADF553 /* blockchain_chat_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockchain_chat_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7758165D2E019BBC00ADF553 /* blockchain_chat_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockchain_chat_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		775816482E019BBA00ADF553 /* blockchain_chat_app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = blockchain_chat_app;
+			sourceTree = "<group>";
+		};
+		775816562E019BBC00ADF553 /* blockchain_chat_appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = blockchain_chat_appTests;
+			sourceTree = "<group>";
+		};
+		775816602E019BBC00ADF553 /* blockchain_chat_appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = blockchain_chat_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775816432E019BBA00ADF553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775816502E019BBC00ADF553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7758165A2E019BBC00ADF553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7758163D2E019BBA00ADF553 = {
+			isa = PBXGroup;
+			children = (
+				775816482E019BBA00ADF553 /* blockchain_chat_app */,
+				775816562E019BBC00ADF553 /* blockchain_chat_appTests */,
+				775816602E019BBC00ADF553 /* blockchain_chat_appUITests */,
+				775816472E019BBA00ADF553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775816472E019BBA00ADF553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775816462E019BBA00ADF553 /* blockchain_chat_app.app */,
+				775816532E019BBC00ADF553 /* blockchain_chat_appTests.xctest */,
+				7758165D2E019BBC00ADF553 /* blockchain_chat_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775816452E019BBA00ADF553 /* blockchain_chat_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775816672E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_app" */;
+			buildPhases = (
+				775816422E019BBA00ADF553 /* Sources */,
+				775816432E019BBA00ADF553 /* Frameworks */,
+				775816442E019BBA00ADF553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				775816482E019BBA00ADF553 /* blockchain_chat_app */,
+			);
+			name = blockchain_chat_app;
+			packageProductDependencies = (
+			);
+			productName = blockchain_chat_app;
+			productReference = 775816462E019BBA00ADF553 /* blockchain_chat_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775816522E019BBC00ADF553 /* blockchain_chat_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7758166A2E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_appTests" */;
+			buildPhases = (
+				7758164F2E019BBC00ADF553 /* Sources */,
+				775816502E019BBC00ADF553 /* Frameworks */,
+				775816512E019BBC00ADF553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775816552E019BBC00ADF553 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775816562E019BBC00ADF553 /* blockchain_chat_appTests */,
+			);
+			name = blockchain_chat_appTests;
+			packageProductDependencies = (
+			);
+			productName = blockchain_chat_appTests;
+			productReference = 775816532E019BBC00ADF553 /* blockchain_chat_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7758165C2E019BBC00ADF553 /* blockchain_chat_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7758166D2E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_appUITests" */;
+			buildPhases = (
+				775816592E019BBC00ADF553 /* Sources */,
+				7758165A2E019BBC00ADF553 /* Frameworks */,
+				7758165B2E019BBC00ADF553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7758165F2E019BBC00ADF553 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775816602E019BBC00ADF553 /* blockchain_chat_appUITests */,
+			);
+			name = blockchain_chat_appUITests;
+			packageProductDependencies = (
+			);
+			productName = blockchain_chat_appUITests;
+			productReference = 7758165D2E019BBC00ADF553 /* blockchain_chat_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7758163E2E019BBA00ADF553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					775816452E019BBA00ADF553 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					775816522E019BBC00ADF553 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 775816452E019BBA00ADF553;
+					};
+					7758165C2E019BBC00ADF553 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 775816452E019BBA00ADF553;
+					};
+				};
+			};
+			buildConfigurationList = 775816412E019BBA00ADF553 /* Build configuration list for PBXProject "blockchain_chat_app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7758163D2E019BBA00ADF553;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 775816472E019BBA00ADF553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775816452E019BBA00ADF553 /* blockchain_chat_app */,
+				775816522E019BBC00ADF553 /* blockchain_chat_appTests */,
+				7758165C2E019BBC00ADF553 /* blockchain_chat_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775816442E019BBA00ADF553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775816512E019BBC00ADF553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7758165B2E019BBC00ADF553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775816422E019BBA00ADF553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7758164F2E019BBC00ADF553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775816592E019BBC00ADF553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775816552E019BBC00ADF553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775816452E019BBA00ADF553 /* blockchain_chat_app */;
+			targetProxy = 775816542E019BBC00ADF553 /* PBXContainerItemProxy */;
+		};
+		7758165F2E019BBC00ADF553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775816452E019BBA00ADF553 /* blockchain_chat_app */;
+			targetProxy = 7758165E2E019BBC00ADF553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		775816652E019BBC00ADF553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775816662E019BBC00ADF553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775816682E019BBC00ADF553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775816692E019BBC00ADF553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7758166B2E019BBC00ADF553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blockchain_chat_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blockchain_chat_app";
+			};
+			name = Debug;
+		};
+		7758166C2E019BBC00ADF553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blockchain_chat_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blockchain_chat_app";
+			};
+			name = Release;
+		};
+		7758166E2E019BBC00ADF553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blockchain_chat_app;
+			};
+			name = Debug;
+		};
+		7758166F2E019BBC00ADF553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yjm.blockchain-chat-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blockchain_chat_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775816412E019BBA00ADF553 /* Build configuration list for PBXProject "blockchain_chat_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775816652E019BBC00ADF553 /* Debug */,
+				775816662E019BBC00ADF553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775816672E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775816682E019BBC00ADF553 /* Debug */,
+				775816692E019BBC00ADF553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7758166A2E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7758166B2E019BBC00ADF553 /* Debug */,
+				7758166C2E019BBC00ADF553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7758166D2E019BBC00ADF553 /* Build configuration list for PBXNativeTarget "blockchain_chat_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7758166E2E019BBC00ADF553 /* Debug */,
+				7758166F2E019BBC00ADF553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7758163E2E019BBA00ADF553 /* Project object */;
+}
